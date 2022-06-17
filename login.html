@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="HandhelFriendly" content="true"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="icon" href="./hinhepro/logopng.png">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <!-- <script type="text/javascript" src="epro.js"></script> -->
+
+
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        
+        .form{
+           
+            
+            
+            margin: 0 auto;
+            border-radius: 9px;
+            
+            width: 778px;
+            height: 743px;
+            margin-top: 330px;
+            background: rgba(255, 248, 248, 0.6);
+            
+            border: 1px solid rgba(0, 0, 0, 0.6);
+        }
+        .form .textlogo1{
+            position: absolute;
+            width: 689px;
+            height: 125px;
+           text-align: center;
+            
+            font-family: 'Inria Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 100px;
+            line-height: 120px;
+            color: #ffffff;
+        }
+        .form input{
+            box-sizing: border-box;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 36px;
+            position: relative;
+            width: 687px;
+            height: 79px;
+            left: 45px;
+            top: 150px;
+            
+            background: #FFFFFF;
+            border: 1px solid #000000;
+            border-radius: 15px;
+        }
+        .form button{
+            box-sizing: border-box;
+
+            position: relative;
+            width: 687px;
+            height: 79px;
+            left: 45px;
+            top: 150px;
+
+            background: #FFFFFF;
+            border: 1px solid #000000;
+            border-radius: 15px;
+
+            font-family: 'Inria Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 48px;
+            color:#000000;
+            
+        }
+        .form button:hover{
+            background:green;
+            color: #fff;
+        }
+        .form .ps{
+            font-family: 'Inria Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 36px;
+            margin-top: 180px;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.6);
+        }
+        input:invalid{
+            color:red;
+        }
+        input:valid{
+            color: rgb(0, 255, 64);
+        }
+        
+    </style>
+
+
+</head>
+
+<body>
+    <div id="wrapper">
+        
+        <div id="logo">
+            <div class="textlogo">
+                <span>G</span>
+                <span>A</span>
+                <span>R</span>
+                <span class="png"><img src="./hinhepro/png.png" alt=""></span>
+                <span>E</span>
+                <span>N</span>
+            </div>
+            
+            <div class="mymenu" id="menu">
+                <a href="index.html">HOME</a>
+                <a href="tips.html">Tips</a>
+                <a href="tools.html">Tools</a>
+                <a href="">Decor</a>
+                <a href="abouts.html">Abouts</a>
+            </div>
+
+            <div id="giohang">
+                
+                <a class="a" href="#"><i id="up" class="glyphicon glyphicon-user"></i></a>
+            </div>
+            <!-- <div class="responsive ">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div> -->   
+        </div>
+        <div class="noidung">
+            
+            <div class="form">
+                <div class="textlogo1">
+                    <span>G</span>
+                    <span>A</span>
+                    <span>R</span>
+                    <span>D</span>
+                    <span>E</span>
+                    <span>N</span>
+                </div>
+                <input type="text" name="name" id="name" placeholder="   Name" pattern="^[a-zA-Z0-9]{8,20}$"><br><br>
+                <input type="email" name="email" id="email" placeholder="   Email address " pattern="^\w+@\w+\W\.[a-z]{2.3}$"><br><br>
+                <input type="password" name="password" id="password" placeholder="   Password" pattern="^(?=.*[a-z])(?=.*\d)(?=.*[A-Z])(?=.*[^\w]).{8,20}$"><br><br>
+                <input type="password" name="ConfirmPassword" id="ConfirmPassword" placeholder="   Confirm Password" pattern="^(?=.*[a-z])(?=.*\d)(?=.*[A-Z])(?=.*[^\w]).{8,20}$"><br><br>
+                <button type="submit" id="submit" onclick="myFunction()">Confirm</button>
+                <p class="ps">Already have account?  <a href="">Login</a></p>
+            </div>
+                
+        </div>
+        
+        
+
+        <section id="in" class="form-login">
+            <input id="email" type="text" placeholder="  Email" ><br><br>
+            <input id="password" type="password" placeholder="  Password" ><br><br>
+            <button >Confirm</button><br><br>
+            <a href="#">Create New Accout</a>
+        </section>
+        
+    </div>
+    
+    <div id="backtop"><img src="./hinhepro/up.png" alt=""></div>
+    <!-- <footer class="and1"><canvas width='1920px' height="310px"></canvas></footer> -->
+
+    <script src="./js/epro.js"></script>
+
+    <!-- backtop -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var sw = true;
+            $(window).scroll(function () {
+                if (sw) {
+                    sw = false;
+                    setTimeout(function () {
+
+                        if ($(this).scrollTop() != 0) {
+                            $('#backtop').show();
+                            sw = true;
+                        } else {
+                            $('#backtop').hide();
+                            sw = true;
+                        }
+
+                    }, 200);
+                }
+            });
+            $('#backtop').click(function () {
+
+                window.scrollTo(0, 0);
+                return false;
+            });
+        });
+    </script>
+    <script>
+
+        $('#up').click(function () {
+            $("section").toggle(500);
+        })
+
+    </script>
+    <script>
+        function myFunction() {
+        alert("Thank you for your feedback!"+ "\n" +"We will try to improve our website in the future!");
+        }
+    </script>
+    
+</body>
+
+</html>

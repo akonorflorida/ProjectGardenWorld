@@ -1,0 +1,88 @@
+.container{
+    width: 80%;
+    margin:0 auto ;
+    height: auto;
+
+}
+#frame{
+    width: 250px;
+    height: 330px;
+    background-image: url("./tooljpg/tool8.2.jpg");
+    background-size: cover;
+}
+#tittle{
+    position:relative;
+    margin-left: 280px;
+    margin-top: -340px;
+}
+#detail{
+    position:relative;
+    margin-left: 280px;
+}
+.bkicon{
+    width: 100%;
+    height: 100%;
+}
+#sb1{
+    position: relative;
+    margin-top: 200px;
+}
+#sb2{
+    position: relative;
+    margin-top: -75px;
+    margin-left: 70px;
+}
+#sb3{
+    position: relative;
+    margin-top: -75px;
+    margin-left: 140px;
+}
+#tag{
+    position: relative;
+    margin-top: -65px;
+    margin-left: 280px;
+}
+#price{
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 0px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 8px;
+}
+#add{
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 0px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 20px;
+}
+#fb{
+    position: relative;
+    font-weight: bold;
+    margin-top: -200px;
+    margin-left: 280px;
+}
+#feedback{
+    position: relative;
+    margin-left: 280px;
+}
+#send{
+    position: absolute;
+    background-color: aquamarine;
+    border: thin;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: -50px;
+    margin-top: 165px;
+    font-weight: bold;
+}
+#vid{
+    float: left;
+    margin-top: 80px;
+}

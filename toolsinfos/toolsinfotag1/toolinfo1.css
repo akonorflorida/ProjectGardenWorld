@@ -1,0 +1,135 @@
+.container{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+
+}
+#frame{
+    width: 250px;
+    height: 330px;
+    background-image: url("./tooljpg/tool1.jpg");
+    background-size: cover;
+    background-repeat:  no-repeat;
+    /* background-position: center center; */
+    
+}
+#tittle{
+    position:relative;
+    margin-left: 280px;
+    margin-top: -340px;
+}
+#detail{
+    position:relative;
+    margin-left: 280px;
+}
+.bkicon{
+    width: 100%;
+    height: 100%;
+}
+#sb1{
+    position: relative;
+    margin-top: 200px;
+}
+#sb2{
+    position: relative;
+    margin-top: -70px;
+    margin-left: 70px;
+}
+#sb3{
+    position: relative;
+    margin-top: -70px;
+    margin-left: 140px;
+}
+#tag{
+    position: relative;
+    margin-top: -65px;
+    margin-left: 280px;
+}
+#price{
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 8px;
+}
+#add{
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 0px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 20px;
+}
+#fb{
+    position: relative;
+    font-weight: bold;
+    margin-top: -200px;
+    margin-left: 280px;
+}
+#feedback{
+    /* position: relative; */
+    margin-left: 280px;
+    margin-top: -90px;
+}
+#send{
+    position: relative;
+    background-color: aquamarine;
+    border: thin;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: -50px;
+    margin-top: 80px;
+    font-weight: bold;
+}
+#vid{
+ float: left;
+ margin-top: 80px;
+}
+
+/* product */
+.flowerImage {
+    width: 400px;
+    height: 350px;
+    
+    border: solid rgb(155, 245, 155) medium;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.divImage {
+    text-align: center;
+
+    margin: 0.5rem 0rem;
+}
+
+.v-menu {
+    border: rgb(38, 245, 72) solid medium;
+    padding: 1rem;
+}
+
+.navbar-inverse {
+    background-color: rgb(21, 255, 0);
+}
+
+p{
+    font-size: 20px;
+}
+
+.cart-icon{
+    position: relative;
+    
+}
+
+.cart-badge{
+    position: absolute;
+    left: 15px;
+    top: -10px;
+    background-color:rgb(50, 255, 60);
+    font-size: 15px;
+}
